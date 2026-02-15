@@ -7,12 +7,16 @@ bot = discord.Bot()
 
 class User:
     #nessesary factors, will cause death if uncontrolled. Water, energy and happyness
-    nes={"wt":100, "en":100, "hp":100}
+    nes={"wt":0, "en":0, "hp":0}
     #secondary factors, will make game really hard is uncontrolled. Pesourses, poison and food
-    sec={"rs":100, "ps":25, "fd":100}
+    sec={"rs":0, "ps":0, "fd":0}
     #adress of a thread where game is going and ID of user
     thread=0
     id = 0
+    def __init__(self):
+        print("Ааа")
+        
+    
 
 events={}
 
